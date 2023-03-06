@@ -76,10 +76,12 @@
   </div>
   <style>
 #shrey {
-            stroke-dasharray: 1214.5989990234375;
-            stroke-dashoffset: 1214.5989990234375;
-            animation: sign 4s ease;
-            animation-fill-mode: forwards;
+            stroke: red;
+            stroke-dasharray: 92.17662048339844;
+            stroke-dashoffset: 92.17662048339844;
+            stroke-linecap: round;
+            animation: sign 6s linear;
+            animation-fill-mode: both;
             animation-iteration-count: infinite;
         }
         @keyframes sign {
@@ -90,10 +92,10 @@
 </style>
 <footer>
     <div class="d-flex justify-content-center bg-dark" style="height: 10vh;"><span class="text-light py-3"> Made with
-      <svg width="50" height="50" viewBox="0 0 512 512">
-        <path id ="shrey" fill="none" stroke="red"  stroke-linecap="round" stroke-linejoin="round" stroke-width="30"
-        d="M352.92,80C288,80,256,144,256,144s-32-64-96.92-64C106.32,80,64.54,124.14,64,176.81c-1.1,109.33,86.73,187.08,183,252.42a16,16,0,0,0,18,0c96.26-65.34,184.09-143.09,183-252.42C447.46,124.14,405.68,80,352.92,80Z"/>
-      </svg> by Shrey Patel</span>
+        <svg width="45" height="45" fill="none" viewBox="0 0 16 16">
+            <path id ="shrey"
+            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8"/>
+          </svg> by Shrey Patel</span>
     </div>
 </footer>
 </body>
