@@ -4,7 +4,7 @@
 // error_reporting(E_ALL);
 $server= "localhost";
 $username= "root";
-$password= "Shrey5510#";
+$password= "yourpassword"; //Enter your password
 $database= "info";
 
 $conn = mysqli_connect($server,$username,$password,$database);
